@@ -1,7 +1,25 @@
 aid: boxbee
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boxbee.png
 name: Boxbee
-description: Boxbee is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Boxbee is an on-demand storage and reusable moving-box rental service operating
+  across California, including the San Francisco Bay Area, San Jose, Oakland, Los Angeles,
+  Orange County, the Inland Empire, and San Diego. It offers valet pickup-and-delivery
+  storage, rentable reusable plastic moving crates for consumers and businesses, and an
+  online inventory system for managing stored items. Boxbee originated as a 500 Startups
+  and Google Ventures-backed app-based valet self-storage startup founded in 2012; after
+  the by-the-box operation was sold, the brand continued as a regional storage and
+  moving-supply provider. No public API or developer program is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/boxbee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Storage
+- On-Demand Storage
+- Self-Storage
+- Moving
+- Moving Boxes
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://boxbee.com
+- type: Blog
+  url: https://boxbee.com/blog
+- type: Support
+  url: https://boxbee.com/faq
+- type: Login
+  url: https://boxbee.com/login
+- type: Pricing
+  url: https://boxbee.com/pricing
+- type: TermsOfService
+  url: https://boxbee.com/terms
+- type: PrivacyPolicy
+  url: https://boxbee.com/privacy
+- type: DomainSecurity
+  url: security/boxbee-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
