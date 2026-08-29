@@ -32,6 +32,9 @@ description: Boxbee is an on-demand storage and reusable moving-box rental servi
   the by-the-box operation was sold, the brand continued as a regional storage and
   moving-supply provider. No public API or developer program is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/boxbee/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer program is currently published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
